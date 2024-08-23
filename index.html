@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Custom3</title>
+</head>
+<body>
+    <form action="" class="form">
+        <div class="block-inputs">
+            <label for="inputs" class="label-inputs">Inputs</label>
+            <input type="text" placeholder="Enter some text" minlength="4"  maxlength="20" id="inputs" class="input">
+            <img src="images/check.png" alt="" class="img check">
+            <img src="images/krest.png" alt="" class="img krest">
+        </div>
+        <div class="block-checkboxes">
+            <h3 class="check-title">Check boxes</h3>
+            <label class="toggle-inner">
+                <input type="checkbox" id="toggle" class="toggle-checkbox">
+                <div class="toggle-switch"></div>
+            </label>
+        </div>
+        <div class="block-radio">
+            <h3 class="radio-title">Radio buttons</h3>
+            <div class="block-radio-flex">
+                <p class="radio-text">Gender:</p>
+                <div class="radio-inner">
+                    <input type="radio" id="radio" name="radio" class="radio" checked>
+                    <label for="radio" class="label1">Male</label>
+                </div>
+                <div class="radio-inner">
+                    <input type="radio" id="radio2" name="radio" class="radio">
+                    <label for="radio2" class="label1">Female</label>
+                </div>
+            </div>
+        </div>
+        <div class="block-buttons">
+            <h3 class="buttons-title">Buttons</h3>
+            <div class="buttons">
+                <button type="button" class="button active">Active</button>
+                <button type="button" class="button hover">Hover</button>
+                <button type="button" class="button danger">Danger</button>
+                <button type="button" class="button hover2">Hover</button>
+                <button type="button" class="button disabled">Disabled</button>
+                <button type="button" class="button plus">+</button>
+                <button type="button" class="button minus">-</button>
+            </div>
+        </div>
+        <div class="block-area-text">
+            <label for="area" class="area-text-title">Text area</label>
+            <textarea name="area" id="area" placeholder="Enter some text..." class="area"></textarea>
+        </div>
+    </form>
+</body>
+</html>
